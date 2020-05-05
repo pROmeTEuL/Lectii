@@ -3,9 +3,6 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "LICENSE",
-        "Lectii.qbs",
-        "README.md",
         "ex01.cpp",
         "ex01.hpp",
         "ex02.cpp",
