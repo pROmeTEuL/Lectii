@@ -9,6 +9,7 @@
 #include "ex08.hpp"
 #include "ex09.hpp"
 #include "ex10.hpp"
+#include "ex11.h"
 
 int main() {
 //    ex01();
@@ -18,9 +19,10 @@ int main() {
 //    ex05();
 //    ex06();
 //    ex07();
-    ex08();
+//    ex08();
 //    ex09();
 //    ex10();
+    ex11();
     
     return 0;
 }
