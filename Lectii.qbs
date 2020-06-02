@@ -29,6 +29,8 @@ CppApplication {
         "ex12.h",
         "ex13.cpp",
         "ex13.h",
+        "ex14.cpp",
+        "ex14.h",
         "main.cpp",
     ]
 

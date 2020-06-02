@@ -11,6 +11,8 @@
 #include "ex10.hpp"
 #include "ex11.h"
 #include "ex12.h"
+#include "ex13.h"
+#include "ex14.h"
 
 int main() {
 //    ex01();
@@ -24,7 +26,9 @@ int main() {
 //    ex09();
 //    ex10();
 //    ex11();
-    ex12();
+//    ex12();
+//    ex13();
+    ex14();
     
     return 0;
 }
