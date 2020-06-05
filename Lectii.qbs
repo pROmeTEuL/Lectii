@@ -31,6 +31,8 @@ CppApplication {
         "ex13.h",
         "ex14.cpp",
         "ex14.h",
+        "ex15.cpp",
+        "ex15.h",
         "main.cpp",
     ]
 
