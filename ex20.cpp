@@ -14,12 +14,12 @@ void ex20()
     if (a > b) std::swap (a, b);
     if (b > c) std::swap (b, c);
     if (a > b) std::swap (a, b);
-    if(c>=a+b){
+    if (c >= a + b) {
         std::cout << "Bagatil-ai in cur, asta nu e triunghi!" << std::endl;
         return;
     }
-    if(a==b && b==c) std::cout << "E triunghi echilateral." << std::endl;
-    else if (c==sqrt(a * a + b * b)) std::cout << "E triunghi dreptunghic." << std::endl;
-    else if (b==c && a!=c) std::cout << "E triunghi isoscel" << std::endl;
+    if (a == b && b == c) std::cout << "E triunghi echilateral." << std::endl;
+    else if (c == sqrt(a * a + b * b)) std::cout << "E triunghi dreptunghic." << std::endl;
+    else if (b == c && a != c) std::cout << "E triunghi isoscel" << std::endl;
     else std::cout << "E triunghi oarecare." << std::endl;
 }

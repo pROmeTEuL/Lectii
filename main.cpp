@@ -41,6 +41,5 @@ int main() {
 //    ex18();
 //    ex19();
     ex20();
-    
     return 0;
 }
