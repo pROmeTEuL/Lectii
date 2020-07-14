@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include "ex01.hpp"
 #include "ex02.hpp"
 #include "ex03.hpp"
@@ -20,26 +20,98 @@
 #include "ex19.h"
 #include "ex20.h"
 
+using namespace std;
+
 int main() {
-//    ex01();
-//    ex02();
-//    ex03();
-//    ex04();
-//    ex05();
-//    ex06();
-//    ex07();
-//    ex08();
-//    ex09();
-//    ex10();
-//    ex11();
-//    ex12();
-//    ex13();
-//    ex14();
-//    ex15();
-//    ex16();
-//    ex17();
-//    ex18();
-//    ex19();
-    ex20();
+    int exercitiu;
+    do {
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 20) = ";
+        cin >> exercitiu;
+        switch (exercitiu) {
+        case 0:
+            break;
+
+        case 1:
+            ex01();
+            break;
+
+        case 2:
+            ex02();
+            break;
+
+        case 3:
+            ex03();
+            break;
+
+        case 4:
+            ex04();
+            break;
+
+        case 5:
+            ex05();
+            break;
+
+        case 6:
+            ex06();
+            break;
+
+        case 7:
+            ex07();
+            break;
+
+        case 8:
+            ex08();
+            break;
+
+        case 9:
+            ex09();
+            break;
+
+        case 10:
+            ex10();
+            break;
+
+        case 11:
+            ex11();
+            break;
+
+        case 12:
+            ex12();
+            break;
+
+        case 13:
+
+            ex13();
+            break;
+
+        case 14:
+            ex14();
+            break;
+
+        case 15:
+            ex15();
+            break;
+
+        case 16:
+            ex16();
+            break;
+
+        case 17:
+            ex17();
+            break;
+
+        case 18:
+            ex18();
+            break;
+
+        case 19:
+            ex19();
+            break;
+
+        case 20:
+            ex20();
+            break;
+        }
+    } while (exercitiu != 0);
     return 0;
 }
