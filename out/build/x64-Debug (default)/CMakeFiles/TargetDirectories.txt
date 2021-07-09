@@ -1,0 +1,3 @@
+C:/Users/radut/source/repos/pROmeTEuL/Lectii/out/build/x64-Debug (default)/CMakeFiles/SRCS.dir
+C:/Users/radut/source/repos/pROmeTEuL/Lectii/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/radut/source/repos/pROmeTEuL/Lectii/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir

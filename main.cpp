@@ -19,13 +19,16 @@
 #include "ex18.h"
 #include "ex19.h"
 #include "ex20.h"
+#include "ex21.h"
+#include "ex22.h"
+#include "ex23.h"
 
 using namespace std;
 
 int main() {
     int exercitiu;
     do {
-        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 20) = ";
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 23) = ";            // De modificat
         cin >> exercitiu;
         switch (exercitiu) {
         case 0:
@@ -111,6 +114,20 @@ int main() {
         case 20:
             ex20();
             break;
+
+        case 21:
+            ex21();
+            break;
+
+        case 22:
+            ex22();
+            break;
+
+        case 23: 
+            ex23();
+            break;
+        
+      // De adaugat 
         }
     } while (exercitiu != 0);
     return 0;
