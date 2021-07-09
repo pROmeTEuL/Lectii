@@ -30,8 +30,3 @@
 *.exe
 *.out
 *.app
-
-
-
-*.opendb
-*.opensdf
