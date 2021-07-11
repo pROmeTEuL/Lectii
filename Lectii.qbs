@@ -57,6 +57,8 @@ CppApplication {
         "ex26.h",
         "ex27.cpp",
         "ex27.h",
+        "ex28.cpp",
+        "ex28.h",
         "main.cpp",
     ]
 
