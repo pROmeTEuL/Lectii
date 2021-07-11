@@ -43,6 +43,18 @@ CppApplication {
         "ex19.h",
         "ex20.cpp",
         "ex20.h",
+        "ex21.cpp",
+        "ex21.h",
+        "ex22.cpp",
+        "ex22.h",
+        "ex23.cpp",
+        "ex23.h",
+        "ex24.cpp",
+        "ex24.h",
+        "ex25.cpp",
+        "ex25.h",
+        "ex26.cpp",
+        "ex26.h",
         "main.cpp",
     ]
 

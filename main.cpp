@@ -23,13 +23,14 @@
 #include "ex22.h"
 #include "ex23.h"
 #include "ex24.h"
+#include "ex25.h"
 
 using namespace std;
 
 int main() {
     int exercitiu;
     do {
-        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 24) = ";
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 25) = ";
         cin >> exercitiu;
         switch (exercitiu) {
         case 0:
@@ -130,6 +131,10 @@ int main() {
         
         case 24:
             ex24();
+            break;
+
+        case 25:
+            ex25();
             break;
         }
     } while (exercitiu != 0);
