@@ -27,6 +27,7 @@
 #include "ex26.h"
 #include "ex27.h"
 #include "ex28.h"
+#include "ex29.h"
 
 using namespace std;
 
@@ -35,7 +36,7 @@ using namespace std;
 int main() {
     int exercitiu;
     do {
-        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 28) = ";
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 29) = ";
         cin >> exercitiu;
         switch (exercitiu) {
         case 0:
@@ -149,8 +150,13 @@ int main() {
         case 27:
             ex27();
             break;
+
         case 28:
             ex28();
+            break;
+
+        case 29:
+            ex29();
             break;
         }
     } while (exercitiu != 0);
