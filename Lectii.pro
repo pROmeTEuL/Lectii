@@ -30,7 +30,26 @@ HEADERS += ex01.hpp \
            ex07.hpp \
            ex08.hpp \
            ex09.hpp \
-           ex10.hpp
+           ex10.hpp \
+           ex11.h   \
+           ex12.h   \
+           ex13.h   \
+           ex14.h   \
+           ex15.h   \
+           ex16.h   \
+           ex17.h   \
+           ex18.h   \
+           ex19.h   \
+           ex20.h   \
+           ex21.h   \
+           ex22.h   \
+           ex23.h   \
+           ex24.h   \
+           ex25.h   \
+           ex26.h   \
+           ex27.h   \
+           ex28.h   \
+           ex29.h
 SOURCES += ex01.cpp \
            ex02.cpp \
            ex03.cpp \
@@ -41,4 +60,23 @@ SOURCES += ex01.cpp \
            ex08.cpp \
            ex09.cpp \
            ex10.cpp \
+           ex11.cpp \
+           ex12.cpp \
+           ex13.cpp \
+           ex14.cpp \
+           ex15.cpp \
+           ex16.cpp \
+           ex17.cpp \
+           ex18.cpp \
+           ex19.cpp \
+           ex20.cpp \
+           ex21.cpp \
+           ex22.cpp \
+           ex23.cpp \
+           ex24.cpp \
+           ex25.cpp \
+           ex26.cpp \
+           ex27.cpp \
+           ex28.cpp \
+           ex29.cpp \
            main.cpp
