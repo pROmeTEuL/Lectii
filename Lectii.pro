@@ -49,7 +49,8 @@ HEADERS += ex01.hpp \
            ex26.h   \
            ex27.h   \
            ex28.h   \
-           ex29.h
+           ex29.h   \
+           ex30.h
 SOURCES += ex01.cpp \
            ex02.cpp \
            ex03.cpp \
@@ -79,4 +80,5 @@ SOURCES += ex01.cpp \
            ex27.cpp \
            ex28.cpp \
            ex29.cpp \
+           ex30.cpp \
            main.cpp
