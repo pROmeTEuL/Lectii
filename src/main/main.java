@@ -22,6 +22,15 @@ public class main {
 			case 4:
 				Primele10ex.ex4();
 				break;
+			case 5:
+				Primele10ex.ex5();
+				break;
+			case 6:
+				Primele10ex.ex6();
+				break;
+			case 7:
+				Primele10ex.ex7();
+				break;
 			}
 		}while(n != 0);
 	}
