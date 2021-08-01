@@ -61,4 +61,29 @@ public class Primele10ex {
 		b1 = suma - b10 * 10;
 		System.out.println("bancnote de 100 = " + b100 + " de 10 = " + b10 + " iar de 1 = " + b1);
 	}
+	public static void ex8() {
+		int x, y;
+		System.out.print("Iepuroaice:");
+		x = sc.nextInt();
+		System.out.print("Pui nasccuti de fiecare iepuroaica:");
+		y = sc.nextInt();
+		System.out.println("Ipuri in total:" + (x + x * y));
+	}
+	public static void ex9() {
+		double x;
+		System.out.println("Conversie din grame in litri:");
+		System.out.print("grame=");
+		x = sc.nextDouble();
+		System.out.println("litri=" + (x / 1000));
+	}
+	public static void ex10() {
+		int x, z;
+		System.out.print("x=");
+		x = sc.nextInt();
+		System.out.print("z=");
+		z = sc.nextInt();
+		System.out.println("Ioana=" + x);
+		System.out.println("Maria=" + (x + z));
+		System.out.println("Mihai=" + ((x + z) * 2));
+	}
 }
