@@ -8,5 +8,5 @@ void ex09(){
     std::cout << "Conversie din grame in litri:" << std::endl;
     std::cout << "grame=";
     std::cin >> x;
-    std::cout << "litrii=" << x/1000 << std::endl;
+    std::cout << "litri=" << x/1000 << std::endl;
 }
