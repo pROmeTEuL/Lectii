@@ -1,6 +1,7 @@
 package main;
 import java.util.Scanner;
 import main.Primele10ex;
+import main.PanaLaEx20;
 
 public class main {
 	public static void main(String[] args) {
@@ -39,6 +40,9 @@ public class main {
 				break;
 			case 10:
 				Primele10ex.ex10();
+				break;
+			case 11:
+				PanaLaEx20.ex11();
 				break;
 			}
 		}while(n != 0);
