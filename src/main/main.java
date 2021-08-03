@@ -62,6 +62,9 @@ public class main {
 			case 17:
 				PanaLaEx20.ex17();
 				break;
+			case 18:
+				PanaLaEx20.ex18();
+				break;
 			}
 		}while(n != 0);
 	}
