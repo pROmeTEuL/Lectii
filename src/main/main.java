@@ -51,10 +51,10 @@ public class main {
 				PanaLaEx20.ex13();
 				break;
 			case 14:
-//				PanaLaEx20.ex14();
+				PanaLaEx20.ex14();
 				break;
 			}
 		}while(n != 0);
 	}
-	
+
 }
