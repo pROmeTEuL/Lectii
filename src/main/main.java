@@ -44,6 +44,15 @@ public class main {
 			case 11:
 				PanaLaEx20.ex11();
 				break;
+			case 12:
+				PanaLaEx20.ex12();
+				break;
+			case 13:
+				PanaLaEx20.ex13();
+				break;
+			case 14:
+//				PanaLaEx20.ex14();
+				break;
 			}
 		}while(n != 0);
 	}
