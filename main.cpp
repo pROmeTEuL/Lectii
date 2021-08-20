@@ -38,7 +38,7 @@ using namespace std;
 int main() {
     int exercitiu;
     do {
-        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 30) = ";
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 31) = ";
         cin >> exercitiu;
         switch (exercitiu) {
         case 0:
