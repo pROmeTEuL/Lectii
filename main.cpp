@@ -29,6 +29,7 @@
 #include "ex28.h"
 #include "ex29.h"
 #include "ex30.h"
+#include "ex31.h"
 
 using namespace std;
 
@@ -162,6 +163,10 @@ int main() {
 
         case 30:
             ex30();
+            break;
+
+        case 31:
+            ex31();
             break;
         }
     } while (exercitiu != 0);
