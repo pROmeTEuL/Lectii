@@ -30,15 +30,14 @@
 #include "ex29.h"
 #include "ex30.h"
 #include "ex31.h"
+#include "ex32.h"
 
 using namespace std;
-
-// Mai urmeaza exercitii :D
 
 int main() {
     int exercitiu;
     do {
-        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 31) = ";
+        cout << "Ce exercitiu vrei sa rulezi (0 = iesire) (1 -- 32) = ";
         cin >> exercitiu;
         switch (exercitiu) {
         case 0:
@@ -167,6 +166,10 @@ int main() {
 
         case 31:
             ex31();
+            break;
+
+        case 32:
+            ex32();
             break;
         }
     } while (exercitiu != 0);
